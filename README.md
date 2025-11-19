@@ -402,9 +402,18 @@ Necesitas revisar: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,85
 
 ---
 
+## Screenshots ENG:
+
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта5" src="https://github.com/user-attachments/assets/1000d860-f773-4334-ab70-422849c05346" />
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта4" src="https://github.com/user-attachments/assets/6a98fe1b-7301-4de4-a900-99a7a0ac6469" />
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта3" src="https://github.com/user-attachments/assets/70fc1fca-9ab7-410b-8d52-a45d5fae626c" />
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта1" src="https://github.com/user-attachments/assets/282929b5-19d1-4401-9211-9147c91380b7" />
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта2" src="https://github.com/user-attachments/assets/fbbdf413-8ab3-462d-afb0-9f212e9ef2c9" />
+<img width="1104" height="781" alt="Окно-Настроек-Скрипта6" src="https://github.com/user-attachments/assets/9fc91627-de06-4a3e-9ef8-94909954abf0" />
+
+---
 
 ## Скриншоты RUS:
-## Screenshots
 
 <img width="1920" height="1080" alt="Снимок экрана (2)" src="https://github.com/user-attachments/assets/03b44941-fcc7-4875-95cc-28b8e3f425c7" />
 <img width="1920" height="1080" alt="Снимок экрана (3)" src="https://github.com/user-attachments/assets/4e93aaca-5f4f-4a26-a007-2b676217c4a3" />
@@ -420,3 +429,5 @@ Necesitas revisar: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,85
 <img width="1920" height="1080" alt="Снимок экрана (13)" src="https://github.com/user-attachments/assets/47d4aa18-a697-4beb-a6ac-4ec9f3b68be2" />
 <img width="1920" height="1080" alt="Снимок экрана (15)" src="https://github.com/user-attachments/assets/943468ae-f699-462c-a4ab-fc938e694e9f" />
 <img width="1920" height="1080" alt="Снимок экрана (16)" src="https://github.com/user-attachments/assets/1a8c1506-da38-426f-b43b-9d034254ecf2" />
+
+---
