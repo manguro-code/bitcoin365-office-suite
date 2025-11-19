@@ -111,7 +111,7 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 - OS: Windows 10/11 or Linux (40% faster realization of pointlessness on Linux)
 
 ### Recommended:
-- RAM: 256 GB (to watch Netflix while script runs)
+- RAM: 512 GB (to watch Netflix while script runs)
 - CPU: 192 cores/384 threads
 - SSD: for fast disappointment recording
 - Monitor: to watch the key counter approach infinity
@@ -126,7 +126,7 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 - ОС: Windows 10/11 или Linux (на Linux на 40% быстрее достигаете осознания бессмысленности)
 
 ### Рекомендуемые:
-- ОЗУ: 256 ГБ (чтобы параллельно смотреть Netflix пока скрипт работает)
+- ОЗУ: 512 ГБ (чтобы параллельно смотреть Netflix пока скрипт работает)
 - Процессор: 192 ядер/384 потоков
 - SSD: для быстрой записи разочарований
 - Монитор: чтобы видеть как счетчик ключей стремится к бесконечности
@@ -141,7 +141,7 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 - SO: Windows 10/11 o Linux (40% más rápida realización de lo inútil en Linux)
 
 ### Recomendados:
-- RAM: 256 GB (para ver Netflix mientras el script funciona)
+- RAM: 512 GB (para ver Netflix mientras el script funciona)
 - CPU: 192 núcleos/384 hilos
 - SSD: para grabación rápida de decepciones
 - Monitor: para ver el contador de claves acercarse al infinito
