@@ -1,0 +1,487 @@
+/* matrix.qss - Статическая матричная тема с зеленой цветовой схемой */
+QMainWindow, QDialog {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+}
+
+/* Статический градиент вместо анимационного */
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #001100, 
+                                stop: 0.3 #002200,
+                                stop: 0.7 #001100,
+                                stop: 1 #000000);
+}
+
+QWidget {
+    background-color: #000000;
+}
+
+QScrollArea, QScrollArea > QWidget > QWidget {
+    background-color: #000000;
+}
+
+QGroupBox {
+    color: #00ff00;
+    font-weight: bold;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    margin-top: 1ex;
+    padding-top: 10px;
+    background-color: #001100;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px 0 5px;
+    color: #00ff00;
+    background-color: #002200;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: #003300;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #00ff00;
+    color: #000000;
+    border: 2px solid #00ff00;
+}
+
+QPushButton:disabled {
+    background-color: #002200;
+    color: #008800;
+    border: 2px solid #008800;
+}
+
+QRadioButton, QCheckBox {
+    color: #00ff00;
+    spacing: 5px;
+    background: transparent;
+    font-family: "Courier New", monospace;
+}
+
+QRadioButton::indicator, QCheckBox::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QRadioButton::indicator::unchecked {
+    border: 2px solid #008800;
+    border-radius: 7px;
+    background-color: #001100;
+}
+
+QRadioButton::indicator::checked {
+    border: 2px solid #00ff00;
+    border-radius: 7px;
+    background-color: #00ff00;
+}
+
+QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #001100;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: "Courier New", monospace;
+    selection-background-color: #00ff00;
+    selection-color: #000000;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #001100;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    selection-background-color: #00ff00;
+    selection-color: #000000;
+    font-family: "Courier New", monospace;
+}
+
+QComboBox::drop-down {
+    border: none;
+    background: #003300;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #00ff00;
+    width: 0px;
+    height: 0px;
+}
+
+QTextEdit, QTableWidget {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QProgressBar {
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    text-align: center;
+    color: #00ff00;
+    background-color: #001100;
+    font-family: "Courier New", monospace;
+}
+
+QProgressBar::chunk {
+    background-color: #00ff00;
+    border-radius: 2px;
+}
+
+QTabWidget::pane {
+    border: 1px solid #00ff00;
+    background-color: #000000;
+}
+
+QTabBar::tab {
+    background-color: #001100;
+    color: #00ff00;
+    padding: 8px 16px;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: bold;
+}
+
+QLabel {
+    color: #00ff00;
+    background: transparent;
+    font-family: "Courier New", monospace;
+}
+
+QHeaderView::section {
+    background-color: #002200;
+    color: #00ff00;
+    padding: 5px;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QTableWidget {
+    background-color: #000000;
+    gridline-color: #00ff00;
+    alternate-background-color: #001100;
+    font-family: "Courier New", monospace;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    border-bottom: 1px solid #00ff00;
+    color: #00ff00;
+    background-color: #000800;
+    font-family: "Courier New", monospace;
+}
+
+QTableWidget::item:alternate {
+    background-color: #001100;
+}
+
+/* Стили для найденных совпадений */
+QTableWidget::item[found_match="true"] {
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+}
+
+/* Стили для QTextBrowser (помощь) */
+QTextBrowser {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+QTextBrowser h1 {
+    color: #00ff00;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QTextBrowser h2 {
+    color: #00ff00;
+    font-size: 20px;
+    margin: 25px 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #00ff00;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QTextBrowser h3 {
+    color: #00ff00;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QTextBrowser p {
+    margin: 10px 0;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+QTextBrowser ul, QTextBrowser ol {
+    margin: 10px 0 10px 20px;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+QTextBrowser li {
+    margin: 5px 0;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+QTextBrowser code {
+    background-color: #001100;
+    color: #00ff00;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QTextBrowser strong {
+    color: #00ff00;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+}
+
+QTextBrowser .warning {
+    background-color: #332b00;
+    border: 1px solid #665800;
+    color: #ffd700;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-family: "Courier New", monospace;
+}
+
+QTextBrowser .info {
+    background-color: #002b33;
+    border: 1px solid #005566;
+    color: #00d4ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-family: "Courier New", monospace;
+}
+
+/* Стили для диалоговых окон */
+QDialog {
+    background-color: #000000;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+QDialog QLabel {
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+QDialog QProgressBar {
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    text-align: center;
+    color: #00ff00;
+    background-color: #001100;
+    font-family: "Courier New", monospace;
+}
+
+QDialog QProgressBar::chunk {
+    background-color: #00ff00;
+    border-radius: 2px;
+}
+
+QLineEdit {
+    background-color: #001100;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+/* Специальные стили для виджетов ввода */
+QSpinBox::up-button, QSpinBox::down-button,
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button {
+    background-color: #003300;
+    border: 1px solid #00ff00;
+    width: 15px;
+}
+
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
+    border: none;
+    background: #00ff00;
+    width: 4px;
+    height: 4px;
+}
+
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
+    border: none;
+    background: #00ff00;
+    width: 4px;
+    height: 4px;
+}
+
+/* Убираем анимационные градиенты для кнопок */
+QPushButton {
+    background-color: #003300;
+}
+
+QPushButton:hover {
+    background-color: #00ff00;
+}
+
+/* Увеличение ширины вкладок для матричной темы */
+QTabBar::tab {
+    background-color: #001100;
+    color: #00ff00;
+    padding: 8px 12px;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    min-width: 100px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 12px;
+    min-width: 100px;
+}
+
+/* Увеличиваем ширину всего QTabBar */
+QTabBar {
+    background-color: #000000;
+    spacing: 2px;
+}
+
+/* Стили для QTextEdit и QTableWidget с матричным шрифтом */
+QTextEdit {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    selection-background-color: #00ff00;
+    selection-color: #000000;
+}
+
+QTableWidget {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    gridline-color: #008800;
+}
+
+/* Стили для выделенного текста */
+QTextEdit::selection, QLineEdit::selection {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+/* Стили для полос прокрутки */
+QScrollBar:vertical {
+    border: 1px solid #00ff00;
+    background: #001100;
+    width: 15px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #00ff00;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: 1px solid #00ff00;
+    background: #003300;
+    height: 15px;
+}
+
+QScrollBar:horizontal {
+    border: 1px solid #00ff00;
+    background: #001100;
+    height: 15px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #00ff00;
+    min-width: 20px;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: 1px solid #00ff00;
+    background: #003300;
+    width: 15px;
+}
+
+/* Стили для QMessageBox */
+QMessageBox {
+    background-color: #000000;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+QMessageBox QLabel {
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+QMessageBox QPushButton {
+    background-color: #003300;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 5px 15px;
+    font-family: "Courier New", monospace;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+/* Стили для кнопки отладки в матричной теме */
+QPushButton[debug="true"] {
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: bold;
+}
