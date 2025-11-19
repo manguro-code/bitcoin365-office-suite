@@ -1,10 +1,10 @@
 # bitcoin365-office-suite
 
-## **English:** Bitcoin private key scanner with infinite patience requirements
+**English:** ## Bitcoin private key scanner with infinite patience requirements
 
-## **Русский:** Сканер приватных ключей биткоин с требованиями бесконечного терпения
+**Русский:** ## Сканер приватных ключей биткоин с требованиями бесконечного терпения
 
-## **Español:** Escáner de claves privadas de Bitcoin con requisitos de paciencia infinita
+**Español:** ## Escáner de claves privadas de Bitcoin con requisitos de paciencia infinita
 
 **🌍 Download Bitcoin Wallet Hash Databases:**
 
@@ -14,6 +14,35 @@
 | 🇷🇺 | **Русский** | [Более полная база хэшей биткоин-кошельков](https://t.me/bitscan365/3) |
 | 🇪🇸 | **Español** | [Base de datos más completa de hashes de Bitcoin](https://t.me/bitscan365/3) |
 
+## 🚀 Quick Start Guide
+
+### English:
+1. Install Python version 3.13.17
+2. Install modules: `pip install coincurve PyQt5 psutil pygame base58 bech32`
+3. Run script: `python en.py`
+4. Go to percentages tab "%%"
+5. Set range 72000 - 92000
+6. Click "Start" button
+7. Check logs every six months, maybe you'll find something!
+
+### Русский:
+1. Установите Python версия 3.13.17
+2. Установите модули: `pip install coincurve PyQt5 psutil pygame base58 bech32`
+3. Запустите скрипт: `python ru.py`
+4. Перейдите на вкладку процентов "%%"
+5. Установите диапазон 72000 - 92000
+6. Нажмите кнопку "Старт"
+7. Раз в полгода смотрите в логи, может быть что-то найдете!
+
+### Español:
+1. Instala Python versión 3.13.17
+2. Instala módulos: `pip install coincurve PyQt5 psutil pygame base58 bech32`
+3. Ejecuta script: `python es.py`
+4. Ve a la pestaña de porcentajes "%%"
+5. Establece rango 72000 - 92000
+6. Haz clic en botón "Iniciar"
+7. ¡Revisa los logs cada seis meses, quizás encuentres algo!
+   
 
 # Установка модулей:
 
