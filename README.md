@@ -21,9 +21,9 @@
 
 | Language | Command |
 |----------|---------|
-| 🇺🇸 **English** | `pip install coincurve PyQt5 psutil pygame base58 bech32` |
-| 🇷🇺 **Русский** | `pip install coincurve PyQt5 psutil pygame base58 bech32` |
-| 🇪🇸 **Español** | `pip install coincurve PyQt5 psutil pygame base58 bech32` |
+| 🇺🇸 **English** | ```pip install coincurve PyQt5 psutil pygame base58 bech32``` |
+| 🇷🇺 **Русский** | ```pip install coincurve PyQt5 psutil pygame base58 bech32``` |
+| 🇪🇸 **Español** | ```pip install coincurve PyQt5 psutil pygame base58 bech32``` |
 
 # Запуск
 
@@ -31,13 +31,26 @@
 
 | Language | Command |
 |----------|---------|
-| 🇺🇸 **English** | `cd C:\path\to\bitcoin365-office-suite && python en.py` |
-| 🇷🇺 **Русский** | `cd C:\путь\к\bitcoin365-office-suite && python ru.py` |
-| 🇪🇸 **Español** | `cd C:\ruta\a\bitcoin365-office-suite && python es.py` |
+| 🇺🇸 **English** | ```cd C:\path\to\bitcoin365-office-suite && python en.py``` |
+| 🇷🇺 **Русский** | ```cd C:\путь\к\bitcoin365-office-suite && python ru.py``` |
+| 🇪🇸 **Español** | ```cd C:\ruta\a\bitcoin365-office-suite && python es.py``` |
+
+# 🚨 Important Warning (Disclaimer)
+
+## ATTENTION!
+This script is intended EXCLUSIVELY for educational purposes and research of Bitcoin technology. The author is not responsible for:
+
+- Your disappointment in mathematics
+- Wasted kilowatts of electricity
+- Lost years of life waiting
+- Divorce due to constantly running computer
+- Mental health from understanding probabilities
+
+---
 
 # 🚨 Важное предупреждение (отказ от ответственности)
 
-## ВНИМАНИЕ! 
+## ВНИМАНИЕ!
 Данный скрипт предназначен ИСКЛЮЧИТЕЛЬНО для образовательных целей и исследования технологии Bitcoin. Автор не несет ответственности за:
 
 - Ваше разочарование в математике
@@ -45,6 +58,19 @@
 - Потерянные годы жизни в ожидании
 - Развод с женой из-за постоянно работающего компьютера
 - Психическое здоровье при осознании вероятностей
+
+---
+
+# 🚨 Advertencia Importante (Descargo de Responsabilidad)
+
+## ¡ATENCIÓN!
+Este script está destinado EXCLUSIVAMENTE para fines educativos e investigación de la tecnología Bitcoin. El autor no es responsable de:
+
+- Tu decepción con las matemáticas
+- Kilovatios de electricidad desperdiciados
+- Años de vida perdidos esperando
+- Divorcio por computadora constantemente encendida
+- Salud mental al comprender las probabilidades
 
 ## 📊 Математика безумия
 ### Прежде чем начать, давайте посчитаем:
@@ -57,6 +83,21 @@
 - шансы_найти_биткоин = 1 / 115792089237316195423570985008687907852837564279074904382605163141518161494336
 - print("Вы скорее выиграете в лотерею", шансы_найти_биткоин / шансы_выиграть_лотерею, "раз")
 
+## 💻 System Requirements
+### Minimum:
+- RAM: 16 GB (script uses ~9 GB)
+- CPU: 4+ cores (more cores = faster disappointment)
+- Storage: 10 GB free space
+- OS: Windows 10/11 or Linux (40% faster realization of pointlessness on Linux)
+
+### Recommended:
+- RAM: 256 GB (to watch Netflix while script runs)
+- CPU: 192 cores/384 threads
+- SSD: for fast disappointment recording
+- Monitor: to watch the key counter approach infinity
+
+---
+
 ## 💻 Системные требования
 ### Минимальные:
 - ОЗУ: 16 ГБ (скрипт жрет ~9 ГБ)
@@ -65,10 +106,25 @@
 - ОС: Windows 10/11 или Linux (на Linux на 40% быстрее достигаете осознания бессмысленности)
 
 ### Рекомендуемые:
-- ОЗУ: 32 ГБ (чтобы параллельно смотреть Netflix пока скрипт работает)
-- Процессор: 8+ ядер/16 потоков
+- ОЗУ: 256 ГБ (чтобы параллельно смотреть Netflix пока скрипт работает)
+- Процессор: 192 ядер/384 потоков
 - SSD: для быстрой записи разочарований
 - Монитор: чтобы видеть как счетчик ключей стремится к бесконечности
+
+---
+
+## 💻 Requisitos del Sistema
+### Mínimos:
+- RAM: 16 GB (el script usa ~9 GB)
+- CPU: 4+ núcleos (más núcleos = decepción más rápida)
+- Almacenamiento: 10 GB de espacio libre
+- SO: Windows 10/11 o Linux (40% más rápida realización de lo inútil en Linux)
+
+### Recomendados:
+- RAM: 256 GB (para ver Netflix mientras el script funciona)
+- CPU: 192 núcleos/384 hilos
+- SSD: para grabación rápida de decepciones
+- Monitor: para ver el contador de claves acercarse al infinito
 
 ### 🔧 Установка зависимостей
 
