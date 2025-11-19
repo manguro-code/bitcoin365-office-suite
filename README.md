@@ -1,5 +1,10 @@
 # bitcoin365-office-suite
-## Bitcoin private key scanner with infinite patience requirements
+
+## **English:** Bitcoin private key scanner with infinite patience requirements
+
+## **Русский:** Сканер приватных ключей биткоин с требованиями бесконечного терпения
+
+## **Español:** Escáner de claves privadas de Bitcoin con requisitos de paciencia infinita
 
 **🌍 Download Bitcoin Wallet Hash Databases:**
 
