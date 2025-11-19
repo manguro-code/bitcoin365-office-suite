@@ -72,16 +72,7 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 - Divorcio por computadora constantemente encendida
 - Salud mental al comprender las probabilidades
 
-## 📊 Математика безумия
-### Прежде чем начать, давайте посчитаем:
---- Всего приватных ключей: 2^256 (это число с 78 цифрами)
---- Ключей в вашем диапазоне: ~2^160 (всего лишь число с 49 цифрами)
---- Ваши шансы найти ключ: меньше, чем вероятность быть пораженным молнией 10 раз подряд
-
-## Ваши реальные шансы:
-- шансы_выиграть_лотерею = 1 / 14_000_000
-- шансы_найти_биткоин = 1 / 115792089237316195423570985008687907852837564279074904382605163141518161494336
-- print("Вы скорее выиграете в лотерею", шансы_найти_биткоин / шансы_выиграть_лотерею, "раз")
+---
 
 ## 💻 System Requirements
 ### Minimum:
@@ -126,103 +117,261 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 - SSD: para grabación rápida de decepciones
 - Monitor: para ver el contador de claves acercarse al infinito
 
-### 🔧 Установка зависимостей
+---
 
-#### Обязательные зависимости
-pip install coincurve PyQt5 psutil
+# ⚙️ "Optimal" Search Setup
 
-####  Для звуковых уведомлений (чтобы хоть как-то скрасить ожидание)
-pip install pygame
+## Recommended configuration to start:
+- Select the `%%` tab (percentage)
+- Enter the range:
+  - First field: `72000`
+  - Second field: `92000`
 
-####  Для генерации адресов (на случай чуда)
-pip install bech32 base58
+--- Why this particular range? Because someone on the internet said there might be keys there. Probably.
 
-####  Дополнительно для психического здоровья
-pip install irony sarcasm infinite-patience
+- Generation method: Random generation
+- Generation type: Cryptographically secure (secrets)
+- Scan mode: Continue scanning from last stop
+- Number of processes: Maximum (to understand the futility faster)
+
+---
 
 # ⚙️ Настройка "оптимального" поиска
 
 ## Рекомендуемая конфигурация для начала:
-- Выберите вкладку %% (процентная)
+- Выберите вкладку `%%` (процентная)
 - Введите диапазон:
--- Первое поле: 72000
--- Второе поле: 92000
+  - Первое поле: `72000`
+  - Второе поле: `92000`
 
 --- Почему именно этот диапазон? Потому что кто-то в интернете сказал, что там могут быть ключи. Наверное.
 
--- Метод генерации: Случайная генерация
--- Способ генерации: Криптографически безопасный (secrets)
--- Режим сканирования: Продолжить сканирование с прошлой остановки
--- Количество процессов: Максимальное (чтобы быстрее понять тщетность затеи)
+- Метод генерации: Случайная генерация
+- Способ генерации: Криптографически безопасный (secrets)
+- Режим сканирования: Продолжить сканирование с прошлой остановки
+- Количество процессов: Максимальное (чтобы быстрее понять тщетность затеи)
+
+---
+
+# ⚙️ Configuración de Búsqueda "Óptima"
+
+## Configuración recomendada para empezar:
+- Selecciona la pestaña `%%` (porcentaje)
+- Ingresa el rango:
+  - Primer campo: `72000`
+  - Segundo campo: `92000`
+
+--- ¿Por qué este rango en particular? Porque alguien en internet dijo que podría haber claves allí. Probablemente.
+
+- Método de generación: Generación aleatoria
+- Tipo de generación: Criptográficamente seguro (secrets)
+- Modo de escaneo: Continuar escaneo desde la última parada
+- Número de procesos: Máximo (para entender la futilidad más rápido)
+
+---
+
+# What This Means in Practice:
+
+## Your "Small" Range
+You need to check: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,855,814,980,876,521,032,628,303,632,298,867 keys
+
+## 💡 "Optimization" Tips
+- Run on Linux - +40% speed (and realization of hopelessness)
+- Use nighttime - to not see the counter crawling
+- Don't watch progress - this will preserve mental health
+- Have a backup plan - for example, learn Python and get a job
+
+## 🔊 Sound Notifications
+### When a key is found, the script:
+- Will play alerta.wav sound
+- Will show a dialog window
+- Will save the key to results/results_X.txt file
+- You probably won't live to see this moment
+
+## 💾 Progress Saving
+- The script automatically saves state every 5 minutes. You can continue from the same spot when restarting (if you plan to live forever).
+
+### 📈 Progress Monitoring
+- Speed: 100,000 keys/sec (approximately)
+- Memory: ~9 GB RAM
+- Chances: Approaching zero
+- Wait time: Infinite (but, anything is possible!)
+
+## 🎯 What to Do If It Finds a Key?
+- Check that you're not sleeping
+- Make sure it's not a hallucination from sleep deprivation
+- Carefully transfer the bitcoins (just in case)
+- Buy an island and forget about this script
+
+---
 
 # Что это значит на практике:
 
-##  Ваш "небольшой" диапазон
-- общее_количество_ключей = 115792089237316195423570985008687907852837564279074904382605163141518161494336
-- ваш_диапазон = общее_количество_ключей * (92000 - 72000) / 1000000
-- print(f"Вам нужно перебрать: {ваш_диапазон:,} ключей")
-
-####  Вывод: Вам нужно перебрать: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,855,814,980,876,521,032,628,303,632,298,867 ключей
+## Ваш "небольшой" диапазон
+Вам нужно перебрать: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,855,814,980,876,521,032,628,303,632,298,867 ключей
 
 ## 💡 Советы по "оптимизации"
--- Запускайте на Linux - +40% к скорости (и к осознанию безнадежности)
--- Используйте ночное время - чтобы не видеть как счетчик ползет
--- Не смотрите на прогресс - это сохранит психическое здоровье
--- Имейте запасной план - например, выучить Python и устроиться на работу
+- Запускайте на Linux - +40% к скорости (и к осознанию безнадежности)
+- Используйте ночное время - чтобы не видеть как счетчик ползет
+- Не смотрите на прогресс - это сохранит психическое здоровье
+- Имейте запасной план - например, выучить Python и устроиться на работу
 
 ## 🔊 Звуковые уведомления
 ### При обнаружении ключа скрипт:
--- Воспроизведет звук alerta.wav
--- Покажет диалоговое окно
--- Запишет ключ в файл results/results_X.txt
--- Вы скорее всего не доживете до этого момента
+- Воспроизведет звук alerta.wav
+- Покажет диалоговое окно
+- Запишет ключ в файл results/results_X.txt
+- Вы скорее всего не доживете до этого момента
 
 ## 💾 Сохранение прогресса
--- Скрипт автоматически сохраняет состояние каждые 5 минут. При перезапуске можно продолжить с того же места (если вы планируете жить вечно).
+- Скрипт автоматически сохраняет состояние каждые 5 минут. При перезапуске можно продолжить с того же места (если вы планируете жить вечно).
 
 ### 📈 Мониторинг прогресса
--- Скорость: 100,000 ключей/сек (примерно)
--- Память: ~9 ГБ ОЗУ
--- Шансы: Стремящиеся к нулю
--- Ожидание: Бесконечное (но, всё может быть!)
+- Скорость: 100,000 ключей/сек (примерно)
+- Память: ~9 ГБ ОЗУ
+- Шансы: Стремящиеся к нулю
+- Ожидание: Бесконечное (но, всё может быть!)
 
 ## 🎯 Что делать если найдет ключ?
--- Проверить что вы не спите
--- Убедиться что это не галлюцинация от недосыпа
--- Осторожно перевести биткоины (мало ли)
--- Купить остров и забыть про этот скрипт
+- Проверить что вы не спите
+- Убедиться что это не галлюцинация от недосыпа
+- Осторожно перевести биткоины (мало ли)
+- Купить остров и забыть про этот скрипт
+
+---
+
+# Lo Que Esto Significa en la Práctica:
+
+## Tu "Pequeño" Rango
+Necesitas revisar: 23,158,417,847,463,239,084,714,197,001,737,581,570,567,512,855,814,980,876,521,032,628,303,632,298,867 claves
+
+## 💡 Consejos de "Optimización"
+- Ejecuta en Linux - +40% velocidad (y realización de la desesperanza)
+- Usa horario nocturno - para no ver el contador avanzar
+- No mires el progreso - esto preservará tu salud mental
+- Ten un plan de respaldo - por ejemplo, aprender Python y conseguir trabajo
+
+## 🔊 Notificaciones de Sonido
+### Cuando se encuentra una clave, el script:
+- Reproducirá el sonido alerta.wav
+- Mostrará una ventana de diálogo
+- Guardará la clave en el archivo results/results_X.txt
+- Probablemente no vivirás para ver este momento
+
+## 💾 Guardado de Progreso
+- El script guarda automáticamente el estado cada 5 minutos. Puedes continuar desde el mismo punto al reiniciar (si planeas vivir para siempre).
+
+### 📈 Monitoreo de Progreso
+- Velocidad: 100,000 claves/seg (aproximadamente)
+- Memoria: ~9 GB RAM
+- Probabilidades: Acercándose a cero
+- Tiempo de espera: Infinito (¡pero, todo puede pasar!)
+
+## 🎯 ¿Qué Hacer Si Encuentra una Clave?
+- Verifica que no estés dormido
+- Asegúrate de que no sea una alucinación por falta de sueño
+- Transfiere cuidadosamente los bitcoins (por si acaso)
+- Compra una isla y olvídate de este script
+
+---
+## ❓ Frequently Asked Questions
+- **Q:** How long do I need to wait?
+- **A:** Infinity is not the limit!
+
+- **Q:** Is there a guarantee of success?
+- **A:** There is a guarantee - the mathematical probability is non-zero!
+
+- **Q:** Why is the script so slow?
+- **A:** Because the Universe can't keep up with your ambitions!
+
+- **Q:** What to do if it doesn't find anything?
+- **A:** Keep waiting. Or realize the futility of existence.
+
+## 📞 Support
+- **Email:** koare@hotmail.co.uk
+- **Telegram:** https://t.me/bitscan365
+- **GitHub:** [bitcoin365-office-suite](https://github.com/manguro-code/bitcoin365-office-suite)
+
+#### The developer would be happy to hear your disappointment stories!
+
+## 💰 Support the Developer
+### If you enjoy the feeling of hopelessness:
+
+- **BTC:** bc1qq3grmv3mtpf4yp763dj7yv64z3kj0jl07vm357
+- **ETH:** 0x1b31a9a4ef160E52Ea57cAc63A60214CC5CF511d
+
+## 🎭 Conclusion
+- Remember: this script is the digital equivalent of searching for a needle in a galaxy-sized haystack. Good luck! (it won't help you)
+
+> "Infinity is not the limit, but only the beginning of disappointment" - Anonymous Miner, 2024
+
+---
 
 ## ❓ Часто задаваемые вопросы
--- В: Сколько времени нужно ждать?
--- О: Бесконечность - не предел!
+- **В:** Сколько времени нужно ждать?
+- **О:** Бесконечность - не предел!
 
--- В: Есть ли гарантия успеха?
--- О: Гарантия есть - математическая вероятность ненулевая!
+- **В:** Есть ли гарантия успеха?
+- **О:** Гарантия есть - математическая вероятность ненулевая!
 
--- В: Почему скрипт такой медленный?
--- О: Потому что Вселенная не успевает за вашими амбициями!
+- **В:** Почему скрипт такой медленный?
+- **О:** Потому что Вселенная не успевает за вашими амбициями!
 
--- В: Что делать если не находит?
--- О: Продолжать ждать. Или осознать тщетность бытия.
+- **В:** Что делать если не находит?
+- **О:** Продолжать ждать. Или осознать тщетность бытия.
 
 ## 📞 Поддержка
--- Email: koare@hotmail.co.uk
--- Telegram: https://t.me/bitscan365
--- GitHub: [[bitcoin365-office-suite](https://github.com/manguro-code/bitcoin365-office-suite/edit)]
+- **Email:** koare@hotmail.co.uk
+- **Telegram:** https://t.me/bitscan365
+- **GitHub:** [bitcoin365-office-suite](https://github.com/manguro-code/bitcoin365-office-suite)
 
 #### Разработчик будет рад услышать ваши истории разочарования!
 
 ## 💰 Поддержка разработчика
 ### Если вам нравится ощущение безнадежности:
 
--- BTC: bc1qq3grmv3mtpf4yp763dj7yv64z3kj0jl07vm357
-
--- ETH: 0x1b31a9a4ef160E52Ea57cAc63A60214CC5CF511d
+- **BTC:** bc1qq3grmv3mtpf4yp763dj7yv64z3kj0jl07vm357
+- **ETH:** 0x1b31a9a4ef160E52Ea57cAc63A60214CC5CF511d
 
 ## 🎭 Заключение
--- Помните: этот скрипт - цифровой эквивалент поиска иголки в стоге сена размером с галактику. Удачи! (она вам не поможет)
+- Помните: этот скрипт - цифровой эквивалент поиска иголки в стоге сена размером с галактику. Удачи! (она вам не поможет)
 
-"Бесконечность — не предел, а только начало разочарования" - Анонимный майнер, 2024
+> "Бесконечность — не предел, а только начало разочарования" - Анонимный майнер, 2024
+
+---
+
+## ❓ Preguntas Frecuentes
+- **P:** ¿Cuánto tiempo necesito esperar?
+- **R:** ¡El infinito no es el límite!
+
+- **P:** ¿Hay garantía de éxito?
+- **R:** Hay garantía - ¡la probabilidad matemática es no cero!
+
+- **P:** ¿Por qué el script es tan lento?
+- **R:** ¡Porque el Universo no puede seguir el ritmo de tus ambiciones!
+
+- **P:** ¿Qué hacer si no encuentra nada?
+- **R:** Sigue esperando. O reconoce la futilidad de la existencia.
+
+## 📞 Soporte
+- **Email:** koare@hotmail.co.uk
+- **Telegram:** https://t.me/bitscan365
+- **GitHub:** [bitcoin365-office-suite](https://github.com/manguro-code/bitcoin365-office-suite)
+
+#### ¡El desarrollador estará encantado de escuchar tus historias de decepción!
+
+## 💰 Apoya al Desarrollador
+### Si disfrutas de la sensación de desesperanza:
+
+- **BTC:** bc1qq3grmv3mtpf4yp763dj7yv64z3kj0jl07vm357
+- **ETH:** 0x1b31a9a4ef160E52Ea57cAc63A60214CC5CF511d
+
+## 🎭 Conclusión
+- Recuerda: este script es el equivalente digital de buscar una aguja en un pajar del tamaño de una galaxia. ¡Buena suerte! (no te ayudará)
+
+> "El infinito no es el límite, sino solo el comienzo de la decepción" - Minero Anónimo, 2024
+
+---
 
 
 ## Скриншоты RUS:
