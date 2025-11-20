@@ -153,8 +153,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Recommended configuration to start:
 - Select the `%%` tab (percentage)
 - Enter the range:
-  - First field: `72000`
-  - Second field: `92000`
+  - First field: `720000`
+  - Second field: `920000`
 
 --- Why this particular range? Because someone on the internet said there might be keys there. Probably.
 
@@ -170,8 +170,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Рекомендуемая конфигурация для начала:
 - Выберите вкладку `%%` (процентная)
 - Введите диапазон:
-  - Первое поле: `72000`
-  - Второе поле: `92000`
+  - Первое поле: `720000`
+  - Второе поле: `920000`
 
 --- Почему именно этот диапазон? Потому что кто-то в интернете сказал, что там могут быть ключи. Наверное.
 
