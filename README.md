@@ -21,7 +21,7 @@
 2. Install modules: `pip install coincurve PyQt5 psutil pygame base58 bech32`
 3. Run script: `python en.py`
 4. Go to percentages tab "%%"
-5. Set range 72000 - 92000
+5. Set range 720000 - 920000
 6. Click "Start" button
 7. Check logs every six months, maybe you'll find something!
 
@@ -39,7 +39,7 @@
 2. Instala módulos: `pip install coincurve PyQt5 psutil pygame base58 bech32`
 3. Ejecuta script: `python es.py`
 4. Ve a la pestaña de porcentajes "%%"
-5. Establece rango 72000 - 92000
+5. Establece rango 720000 - 920000
 6. Haz clic en botón "Iniciar"
 7. ¡Revisa los logs cada seis meses, quizás encuentres algo!
    
@@ -187,8 +187,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Configuración recomendada para empezar:
 - Selecciona la pestaña `%%` (porcentaje)
 - Ingresa el rango:
-  - Primer campo: `72000`
-  - Segundo campo: `92000`
+  - Primer campo: `720000`
+  - Segundo campo: `920000`
 
 --- ¿Por qué este rango en particular? Porque alguien en internet dijo que podría haber claves allí. Probablemente.
 
