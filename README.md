@@ -21,7 +21,7 @@
 2. Install modules: `pip install coincurve PyQt5 psutil pygame base58 bech32`
 3. Run script: `python en.py`
 4. Go to percentages tab "%%"
-5. Set range 720000 - 920000
+5. Set range 72000000000000 - 92000000000000
 6. Click "Start" button
 7. Check logs every six months, maybe you'll find something!
 
@@ -30,7 +30,7 @@
 2. Установите модули: `pip install coincurve PyQt5 psutil pygame base58 bech32`
 3. Запустите скрипт: `python ru.py`
 4. Перейдите на вкладку процентов "%%"
-5. Установите диапазон 720000 - 920000
+5. Установите диапазон 72000000000000 - 92000000000000
 6. Нажмите кнопку "Старт"
 7. Раз в полгода смотрите в логи, может быть что-то найдете!
 
@@ -39,7 +39,7 @@
 2. Instala módulos: `pip install coincurve PyQt5 psutil pygame base58 bech32`
 3. Ejecuta script: `python es.py`
 4. Ve a la pestaña de porcentajes "%%"
-5. Establece rango 720000 - 920000
+5. Establece rango 72000000000000 - 92000000000000
 6. Haz clic en botón "Iniciar"
 7. ¡Revisa los logs cada seis meses, quizás encuentres algo!
    
@@ -153,8 +153,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Recommended configuration to start:
 - Select the `%%` tab (percentage)
 - Enter the range:
-  - First field: `720000`
-  - Second field: `920000`
+  - First field: `72000000000000`
+  - Second field: `92000000000000`
 
 --- Why this particular range? Because someone on the internet said there might be keys there. Probably.
 
@@ -170,8 +170,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Рекомендуемая конфигурация для начала:
 - Выберите вкладку `%%` (процентная)
 - Введите диапазон:
-  - Первое поле: `720000`
-  - Второе поле: `920000`
+  - Первое поле: `72000000000000`
+  - Второе поле: `92000000000000`
 
 --- Почему именно этот диапазон? Потому что кто-то в интернете сказал, что там могут быть ключи. Наверное.
 
@@ -187,8 +187,8 @@ Este script está destinado EXCLUSIVAMENTE para fines educativos e investigació
 ## Configuración recomendada para empezar:
 - Selecciona la pestaña `%%` (porcentaje)
 - Ingresa el rango:
-  - Primer campo: `720000`
-  - Segundo campo: `920000`
+  - Primer campo: `72000000000000`
+  - Segundo campo: `92000000000000`
 
 --- ¿Por qué este rango en particular? Porque alguien en internet dijo que podría haber claves allí. Probablemente.
 
